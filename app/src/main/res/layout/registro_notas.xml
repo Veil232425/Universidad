@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="171dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="171dp">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="222dp"
+                    android:layout_height="22dp"
+                    android:layout_marginTop="132dp"
+                    android:text="Diseño Web"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteX="25dp" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="220dp"
+                    android:layout_height="24dp"
+                    android:layout_marginTop="104dp"
+                    android:text="Redes"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteX="25dp" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="222dp"
+                    android:layout_height="29dp"
+                    android:layout_marginTop="72dp"
+                    android:text="Finanzas"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteX="25dp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="222dp"
+                    android:layout_height="24dp"
+                    android:layout_marginTop="44dp"
+                    android:text="Aplicaciones Móviles"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteX="25dp" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Código"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteX="69dp" />
+
+                <TextView
+                    android:id="@+id/txtCodigoAlumno"
+                    android:layout_width="81dp"
+                    android:layout_height="19dp"
+                    android:text=""
+                    tools:layout_editor_absoluteX="158dp"
+                    tools:layout_editor_absoluteY="16dp" />
+
+                <TextView
+                    android:id="@+id/txtAMoviles"
+                    android:layout_width="91dp"
+                    android:layout_height="23dp"
+                    android:text=""
+                    tools:layout_editor_absoluteX="261dp"
+                    tools:layout_editor_absoluteY="44dp" />
+
+                <TextView
+                    android:id="@+id/txtFinanzas"
+                    android:layout_width="91dp"
+                    android:layout_height="23dp"
+                    android:text=""
+                    tools:layout_editor_absoluteX="261dp"
+                    tools:layout_editor_absoluteY="74dp" />
+
+                <TextView
+                    android:id="@+id/txtRedes"
+                    android:layout_width="91dp"
+                    android:layout_height="23dp"
+                    android:text=""
+                    tools:layout_editor_absoluteX="261dp"
+                    tools:layout_editor_absoluteY="105dp" />
+
+                <TextView
+                    android:id="@+id/txtDisenioWeb"
+                    android:layout_width="91dp"
+                    android:layout_height="23dp"
+                    android:text=""
+                    tools:layout_editor_absoluteX="261dp"
+                    tools:layout_editor_absoluteY="132dp" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+    </TableRow>
+</androidx.constraintlayout.widget.ConstraintLayout>
